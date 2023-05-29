@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+.main_container{
+min-height: 100vh;
+max-width: 100%;
+
+}
+.sub_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items:center ;
+}
